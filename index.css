@@ -1,0 +1,122 @@
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+}
+
+.icon-bar {
+    display: flex;
+    margin: 10px;
+    top: 0;
+    right: 0;
+    justify-content: flex-end;
+    align-items: center;
+    height: 75px;
+}
+
+.icon-bar button {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon-bar-header {
+    margin: 10px 15px;
+}
+
+.logo-container {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo-search {
+    margin-top: 20px;
+    margin: 10px auto;
+    width: 550px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #dfe1e5;
+    box-sizing: border-box;
+    height: 55px;
+}
+
+.logo-search:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+div input {
+    height: 30px;
+    font-size: 20px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.logo-search div {
+    width: 10%;
+    padding: 10px;
+    height: 30px;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.logo-search input {
+    width: 80%;
+    margin: auto;
+    border: none;
+}
+
+.buttons {
+    margin: 30px;
+}
+
+
+.under-search {
+    margin: 0px 10px;
+    padding: 15px 20px;
+    border: none;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+}
+
+.under-search:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #70757a;
+    background: #f2f2f2;
+    height: 8vh;
+}
+
+.footer-about {
+    margin-left: 20px;
+    display: flex;
+    padding: 15px;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.footer-settings {
+    margin-right: 30px;
+    display: flex;
+    padding: 15px;
+    width: 20%;
+    justify-content: space-between;
+}
